@@ -1,0 +1,190 @@
+@font-face {
+    font-family: lexend;
+    src: url(LexendDeca-Regular.ttf);
+}
+
+@font-face {
+    font-family: bsd;
+    src: url(BigShouldersDisplay-Bold.ttf);
+}
+
+html {
+    font-size: 15px;
+    font-family: "bsd";
+}
+
+.container {
+    max-width: 860px;
+    height: 470px;
+    border-radius: 10px;
+    margin: 30px auto 0px;
+    display: flex;
+    align-content: space-around;
+}
+
+.box1 {
+    order: 1;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+
+}
+
+.box2 {
+    order: 2;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.box3 {
+    order: 3;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.img {
+    order: 1;
+    flex: 1;
+}
+
+.h1 {
+    order:2;
+    flex: 1;
+    font-size: 40px;
+    color: white;
+}
+
+.text {
+    order: 3;
+    flex: 3;
+    font-family: "lexend";
+    font-size: 15px;
+    line-height: 22px;
+    color: white;
+}   
+
+.button {
+    order: 4;
+    font-family: "lexend";  
+    font-size: 14px;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.box1 button {
+    color: hsl(31, 77%, 52%);
+}
+
+.box2 button {
+    color: hsl(184, 100%, 22%);
+}
+
+.box3 button {
+    color: hsl(179, 100%, 13%);
+}
+
+button {
+    background-color: white;
+    cursor:pointer;
+    width: 150px;
+    height: 50px;
+    font-family: "lexend";  
+    font-size: 14px;
+    border-style: solid;
+    border-radius: 40px;
+    border-color: white;
+}
+
+button:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.copyright {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto 20px;
+    color: hsl(184, 100%, 22%);
+    line-height: 15px;
+    font-family: "lexend";
+    font-size: 15px;
+}
+
+.cr a {
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+}
+
+.cr a:hover {
+    color: hsl(31, 77%, 52%);
+    text-decoration: none;
+    background-color: hsl(179, 100%, 13%);
+    padding: 0px 3px;
+}
+
+/* Responsive Breakpoint */
+
+@media screen and (max-width: 375px) {
+    .container {
+        flex-direction: column;
+        height: 1200px;
+    }
+
+    .box1 {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .box2 {
+        border-radius: 0 0;
+    }
+
+    .box3 {
+        border-radius: 0 0 10px 10px ;
+    }
+
+    .text {
+        padding-top: 25px;
+    }
+
+}
+
+@media screen and (max-width: 710px) {
+    .container {
+        flex-direction: column;
+        height: 1200px;
+    }
+
+    .box1 {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .box2 {
+        border-radius: 0 0;
+    }
+
+    .box3 {
+        border-radius: 0 0 10px 10px ;
+    }
+
+    .text {
+        padding-top: 25px;
+    }
+
+}
