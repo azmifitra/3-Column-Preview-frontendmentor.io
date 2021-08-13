@@ -13,11 +13,19 @@ html {
     font-family: "bsd";
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
 .container {
     max-width: 860px;
     height: 470px;
     border-radius: 10px;
-    margin: 30px auto 0px;
+/*     margin: 30px auto 0px; */
     display: flex;
     align-content: space-around;
 }
