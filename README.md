@@ -1,3 +1,7 @@
+*CHECKOUT MY DESIGN RESULT (LIVESITE) FROM THIS CHALLENGE:*
+
+https://3-column-preview-azmi.netlify.app/
+
 # Frontend Mentor - 3-column preview card component
 
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
